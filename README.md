@@ -30,13 +30,13 @@ PS C:\MeusProjetosDotnet> $newSolution="PetShop"
 ```
 - Rode o arquivo no terminal:
 ```ps
-PS C:\MeusProjetos> ./CreateDotnetSln.ps1
+PS C:\MeusProjetos> ./CreateDotnetSln/CreateDotnetSln.ps1
 ```
 
 <br>
 
 ## Notas das versões
 ### v1.0.0
-- Cria arquivo arquivo da solução, bibliotecas de classe para a camada de domínio e de infra, projeto xUnit e projeto de API Web.
+- Cria arquivo da solução, bibliotecas de classe para a camada de domínio e de infra, projeto xUnit e projeto de API Web.
 - Inicializa repositório git, cria .gitignore e README.
 - Tratamento de erro caso variável `newSolution` não seja encontrada.
